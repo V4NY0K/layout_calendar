@@ -14,10 +14,8 @@ body {
   flex-wrap: wrap;
 
   gap: vars.$day-gap;
-  padding: vars.$c-padding;
-  width: (
-    vars.$col * vars.$cell-size + 6 * vars.$day-gap + 2 * vars.$c-padding
-  );
+  padding: 0 10px;
+  width: (vars.$col * vars.$cell-size + 6 * vars.$day-gap);
 
   &__day {
     display: flex;
